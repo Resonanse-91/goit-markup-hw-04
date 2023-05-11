@@ -30,6 +30,7 @@ ul {
   align-items: center;
 }
 
+
 .header-contact {
   
 }
@@ -275,6 +276,10 @@ img {
   padding: 120px 0;
 }
 
+.socials-icon {
+  fill: #4d5ae5;
+}
+
 .team-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -316,6 +321,7 @@ img {
   background: var(--header-cl);
   padding: 120px 0;
 }
+
 
 .feature-list {
 }
