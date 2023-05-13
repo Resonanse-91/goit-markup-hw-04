@@ -584,6 +584,9 @@ img {
   | Customers
   |============================
 */
+.customers-section {
+  padding: 120px 0 120px;
+}
 
 .Customers-title {
   font-size: 36px;
