@@ -600,12 +600,12 @@ img {
   gap: 24px; 
 }
 
-.Customers-item-ads {
+.Customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
-.customers-link-logo {
+.customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -616,8 +616,8 @@ img {
   color: var(--customers-cl);
 }
 
-.customers-link-logo:hover,
-.customers-link-logo:focus {
+.customers-link:hover,
+.customers-link:focus {
   border-color: var(--btn-f-bg);
   color: var(--btn-f-bg);
 }
