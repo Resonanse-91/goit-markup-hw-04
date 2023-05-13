@@ -284,6 +284,8 @@ img {
 
 .socials-icon {
   fill: var(--main-footer-cl);
+  width: 16px;
+  height: 16px;
 }
 
 .socials {
@@ -306,11 +308,7 @@ img {
   background-color: var(--btn-f-bg);
 }
 
-.svg {
-  width: 16px;
-  height: 16px;
 
-}
 
 
 
