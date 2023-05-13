@@ -588,19 +588,19 @@ img {
   padding: 120px 0 120px;
 }
 
-.Customers-title {
+.customers-title {
   font-size: 36px;
   line-height: 1.1;
   color: var(--main-txt-cl);
   margin-bottom: 72px;
 }
 
-.Customers-list {
+.customers-list {
   display: flex;
   gap: 24px; 
 }
 
-.Customers-item {
+.customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
