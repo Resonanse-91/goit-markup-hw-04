@@ -284,7 +284,12 @@ img {
 
 .socials-icon {
   fill: #4d5ae5;
+}
+
+.socials {
+  justify-content: center;
   gap: 24px;
+  
 }
 
 .team-title {
@@ -321,6 +326,7 @@ img {
 
 .name-prof-title {
   padding: 32px 16px;
+  padding: 32px 0 32px;
 }
 
 /* Feature section */
