@@ -328,6 +328,17 @@ img {
   padding: 120px 0;
 }
 
+.icons-antenna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  color: #2e2f42;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .feature-list {
 }
 
