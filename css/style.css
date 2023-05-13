@@ -595,9 +595,9 @@ img {
   margin-bottom: 72px;
 }
 
-.Customers-list {
+.Customers-list-ads {
   display: flex;
-  gap: 24px;  
+  gap: 24px; 
 }
 
 .Customers-item {
