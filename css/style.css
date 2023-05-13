@@ -284,13 +284,16 @@ img {
 
 .socials-icon {
   fill: var(--main-footer-cl);
-  width: 16px;
-  height: 16px;
 }
 
 .socials {
   justify-content: center;
   gap: 24px;  
+}
+
+svg {
+  width: 16px;
+  height: 16px;
 }
 
 .socials-link {
