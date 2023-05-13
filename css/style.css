@@ -284,6 +284,7 @@ img {
 
 .socials-icon {
   fill: #4d5ae5;
+  gap: 24px;
 }
 
 .team-title {
