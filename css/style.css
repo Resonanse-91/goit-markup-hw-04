@@ -595,12 +595,12 @@ img {
   margin-bottom: 72px;
 }
 
-.Customers-list-ads {
+.Customers-list {
   display: flex;
   gap: 24px; 
 }
 
-.Customers-item {
+.Customers-item-ads {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
