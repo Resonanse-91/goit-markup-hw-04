@@ -7,6 +7,7 @@
   --header-cl: #ffffff;
   --btn-f-bg: #404bbf;
   --footer-bg-cl: #31d0aa;
+  --customers-cl: #8e8f99;
 
   /* Fonts */
   --primary-font: Roboto, sans-serif;
@@ -367,19 +368,6 @@ img {
   margin-bottom: 8px;
 }
 
-
-
-/* .icons-antenna {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  color: #2e2f42;
-  border-radius: 4px;
-  margin-bottom: 8px;
-} */
-
 .feature-list {
 }
 
@@ -590,3 +578,44 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/**
+  |============================
+  | Customers
+  |============================
+*/
+
+.Customers-title {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--main-txt-cl);
+  margin-bottom: 72px;
+}
+
+.Customers-list {
+  display: flex;
+  gap: 24px;  
+}
+
+.Customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.emblem {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--customers-cl);
+}
+
+.emblem:hover,
+.emblem:focus {
+  border-color: var(--btn-f-bg);
+  color: var(--btn-f-bg);
+}
+
