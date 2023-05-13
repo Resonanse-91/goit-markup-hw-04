@@ -600,7 +600,7 @@ img {
   gap: 24px;  
 }
 
-.Customers-item {
+.Customers-style-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
