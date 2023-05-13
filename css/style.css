@@ -283,7 +283,7 @@ img {
 }
 
 .socials-icon {
-  fill: #4d5ae5;
+  fill: var(--main-footer-cl);
 }
 
 .socials {
@@ -304,6 +304,12 @@ img {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--btn-f-bg);
+}
+
+.svg {
+  width: 16px;
+  height: 16px;
+
 }
 
 
