@@ -6,6 +6,7 @@
   --main-footer-cl: #f4f4fd;
   --header-cl: #ffffff;
   --btn-f-bg: #404bbf;
+  --footer-bg-cl: #31d0aa;
 
   /* Fonts */
   --primary-font: Roboto, sans-serif;
@@ -311,10 +312,6 @@ img {
   height: 40px;
 }
 
-
-
-
-
 .team-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -377,7 +374,6 @@ img {
 }
 
 .feature-block {
-  /* margin-bottom: 8px; */
   justify-content: center;
   gap: 24px;
 }
@@ -410,6 +406,15 @@ img {
 .footer {
   background: var(--main-txt-cl);
   padding: 100px 0;
+}
+
+.footer-social {
+  gap: 16px;
+}
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--footer-bg-cl);
 }
 
 .container-footer {
