@@ -506,7 +506,6 @@ img {
 }
 
 .poster-item {
-  display: block;
   height: 420px;
   text-decoration: none;
   width: calc((100% - 48px) / 3);
@@ -554,6 +553,7 @@ img {
 }
 
 .logo-img {
+  display: block;
 }
 
 .poster-card {
