@@ -191,15 +191,18 @@ img {
 }
 
 .hero-section {
-    margin: 0 auto;
-    background: var(--main-txt-cl);
-    padding: 188px 0;
-    background-image: url(../images/hero/work.jpg);
-    
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  margin: 0 auto;
+  background: var(--main-txt-cl);
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .btn {
@@ -589,16 +592,16 @@ img {
 }
 
 .customers-title {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.1;
-    color: var(--main-txt-cl);
-    margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--main-txt-cl);
+  margin-bottom: 72px;
 }
 
 .customers-list {
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 
 .customers-item {
